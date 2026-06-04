@@ -46,8 +46,7 @@ export default function Hero() {
                   onClick={scrollToContact}
                   className="group bg-[#1B4332] hover:bg-[#2D6A4F] text-[#FAF7F2] font-semibold text-[15px] px-8 py-4 rounded-full flex items-center gap-3 transition-all duration-300 hover:shadow-xl hover:shadow-[#1B4332]/20 hover:scale-105 focus-bronze"
                 >
-                  Начать путь к успеху
-                  <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" aria-hidden="true" />
+                  Начать свой путь
                 </button>
                 <button
                   onClick={() => document.querySelector('#services')?.scrollIntoView({ behavior: 'smooth' })}
