@@ -33,9 +33,8 @@ export default function Hero() {
               </div>
 
               <h1 className="font-playfair text-[#141414] leading-[1.05] mb-6" style={{ fontSize: 'clamp(2.4rem, 5vw, 4.2rem)' }}>
-                Поступайте в<br />
-                <em className="text-[#1B4332] not-italic">топовые мировые</em><br />
-                вузы с MEJNAZ
+                DARE TO DREAM<br />
+                <em className="text-[#1B4332] not-italic">STUDY ABROAD</em>
               </h1>
 
               <p className="text-[#3D3D3D] text-[18px] leading-[1.65] mb-10 max-w-lg">
