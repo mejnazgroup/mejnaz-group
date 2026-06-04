@@ -91,7 +91,7 @@ function ServiceCard({ service, index }) {
             className="flex items-center gap-2 text-[#1B4332] font-semibold text-[14px] group-hover:bg-[#C18C5D] group-hover:text-[#141414] group-hover:w-full px-4 py-2.5 rounded-lg transition-all duration-300 focus-bronze"
             aria-label={`Узнать подробнее о ${service.title}`}
           >
-            Подробнее
+            Оставить заявку
             <ChevronRight size={16} aria-hidden="true" className="group-hover:translate-x-1 transition-transform" />
           </motion.button>
         </div>
