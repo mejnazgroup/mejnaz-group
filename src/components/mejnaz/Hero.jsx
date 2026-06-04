@@ -28,7 +28,7 @@ export default function Hero() {
               <div className="flex items-center gap-3 mb-6">
                 <div className="h-px w-10 bg-[#C18C5D]" />
                 <span className="text-[#C18C5D] text-[13px] font-semibold tracking-[0.15em] uppercase">
-                  Премиум образовательный консалтинг
+                  Диверсифицированная образовательно-консалтинговая компания
                 </span>
               </div>
 
