@@ -3,6 +3,7 @@ import Hero from '@/components/mejnaz/Hero';
 import Stats from '@/components/mejnaz/Stats';
 import Services from '@/components/mejnaz/Services';
 import WhyUs from '@/components/mejnaz/WhyUs';
+import Destinations from '@/components/mejnaz/Destinations';
 import Contact from '@/components/mejnaz/Contact';
 import Footer from '@/components/mejnaz/Footer';
 import FloatingWhatsApp from '@/components/mejnaz/FloatingWhatsApp';
@@ -15,6 +16,7 @@ export default function Home() {
       <Stats />
       <Services />
       <WhyUs />
+      <Destinations />
       <Contact />
       <Footer />
       <FloatingWhatsApp />
