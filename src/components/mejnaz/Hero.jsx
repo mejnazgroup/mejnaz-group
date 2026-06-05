@@ -43,12 +43,6 @@ export default function Hero() {
 
               <div className="flex flex-wrap gap-4 items-center">
                 <button
-                  onClick={scrollToContact}
-                  className="group bg-[#1B4332] hover:bg-[#2D6A4F] text-[#FAF7F2] font-semibold text-[15px] px-8 py-4 rounded-full flex items-center gap-3 transition-all duration-300 hover:shadow-xl hover:shadow-[#1B4332]/20 hover:scale-105 focus-bronze"
-                >
-                  Начать свой путь
-                </button>
-                <button
                   onClick={() => document.querySelector('#services')?.scrollIntoView({ behavior: 'smooth' })}
                   className="text-[#1B4332] font-semibold text-[15px] underline-bronze hover:text-[#C18C5D] transition-colors focus-bronze rounded-sm py-1"
                 >
