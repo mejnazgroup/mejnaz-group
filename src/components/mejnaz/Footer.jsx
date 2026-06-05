@@ -78,9 +78,9 @@ export default function Footer() {
             <h4 className="text-[#C18C5D] text-[12px] font-semibold tracking-[0.12em] uppercase mb-5">Контакт</h4>
             <ul className="flex flex-col gap-3">
               <li>
-                <a href="tel:+77001234567" className="flex items-start gap-2.5 text-[#FAF7F2]/65 hover:text-[#C18C5D] text-[15px] transition-colors focus-bronze rounded-sm group">
+                <a href="tel:+77472389157" className="flex items-start gap-2.5 text-[#FAF7F2]/65 hover:text-[#C18C5D] text-[15px] transition-colors focus-bronze rounded-sm group">
                   <Phone size={15} className="mt-0.5 flex-shrink-0 group-hover:scale-110 transition-transform" aria-hidden="true" />
-                  +7 (700) 123-45-67
+                  +7 (747) 238-91-57
                 </a>
               </li>
               <li>

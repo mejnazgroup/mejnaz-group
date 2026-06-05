@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Send, MessageCircle, CheckCircle } from 'lucide-react';
 
-const WHATSAPP_NUMBER = '+77001234567';
+const WHATSAPP_NUMBER = '+77472389157';
 const BG_IMG = 'https://media.base44.com/images/public/6a218b5dcff8773efd420c23/450735813_generated_image.png';
 
 const services = [
