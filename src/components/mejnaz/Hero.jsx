@@ -38,7 +38,7 @@ export default function Hero() {
               </h1>
 
               <p className="text-[#3D3D3D] text-[18px] leading-[1.65] mb-10 max-w-lg">
-                Поступайте в мировые вузы с MEJNAZ. Персональное сопровождение и подготовка к поступлению для амбициозных абитуриентов.
+                Персональное сопровождение и поступление в мировые вузы для амбициозных абитуриентов.
               </p>
 
               <div className="flex flex-wrap gap-4 items-center">
@@ -92,8 +92,8 @@ export default function Hero() {
                 transition={{ delay: 0.8, duration: 0.5 }}
                 className="absolute -left-6 bottom-16 bg-[#FAF7F2] rounded-2xl shadow-xl p-4 border border-[#E8E0D5]"
               >
-                <div className="text-[#1B4332] font-playfair font-bold text-2xl leading-none">95%+</div>
-                <div className="text-[#3D3D3D] text-[12px] mt-1 font-medium">Успешного<br />поступления</div>
+                <div className="text-[#1B4332] font-playfair font-bold text-2xl leading-none">100%</div>
+                <div className="text-[#3D3D3D] text-[12px] mt-1 font-medium">Успешных<br />зачислений</div>
               </motion.div>
 
               <motion.div
@@ -102,8 +102,8 @@ export default function Hero() {
                 transition={{ delay: 1.0, duration: 0.5 }}
                 className="absolute -right-4 top-20 bg-[#1B4332] rounded-2xl shadow-xl p-4"
               >
-                <div className="text-[#C18C5D] font-playfair font-bold text-2xl leading-none">350+</div>
-                <div className="text-[#FAF7F2]/80 text-[12px] mt-1 font-medium">Студентов в<br />Топ-50 вузах</div>
+                <div className="text-[#C18C5D] font-playfair font-bold text-2xl leading-none">10 лет</div>
+                <div className="text-[#FAF7F2]/80 text-[12px] mt-1 font-medium">Опыта в подготовке<br />документов</div>
               </motion.div>
             </div>
           </motion.div>
