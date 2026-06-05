@@ -1,0 +1,8 @@
+{
+  "type": "notion",
+  "scopes": [
+    "databases:read",
+    "databases:write",
+    "pages:write"
+  ]
+}
