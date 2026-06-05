@@ -1,4 +1,4 @@
-import { Instagram, Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail, MapPin } from 'lucide-react';
 
 const scrollTo = (href) => {
   const el = document.querySelector(href);
@@ -31,7 +31,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-[#FAF7F2]/55 text-[15px] leading-relaxed max-w-[200px]">
-              Поступи c нами за границу с первого раза.
+              Создаём истории поступления, которыми гордятся семьи.
             </p>
           </div>
 
@@ -87,12 +87,6 @@ export default function Footer() {
                 <a href="mailto:mejnazgroup@gmail.com" className="flex items-start gap-2.5 text-[#FAF7F2]/65 hover:text-[#C18C5D] text-[15px] transition-colors focus-bronze rounded-sm group">
                   <Mail size={15} className="mt-0.5 flex-shrink-0 group-hover:scale-110 transition-transform" aria-hidden="true" />
                   mejnazgroup@gmail.com
-                </a>
-              </li>
-              <li>
-                <a href="#" target="_blank" rel="noopener noreferrer" className="flex items-start gap-2.5 text-[#FAF7F2]/65 hover:text-[#C18C5D] text-[15px] transition-colors focus-bronze rounded-sm group">
-                  <Instagram size={15} className="mt-0.5 flex-shrink-0 group-hover:scale-110 transition-transform" aria-hidden="true" />
-                  Instagram
                 </a>
               </li>
               <li>

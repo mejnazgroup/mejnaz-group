@@ -5,7 +5,7 @@ import { useRef } from 'react';
 const stats = [
   { value: '100%', label: 'Успешных зачислений' },
   { value: '10 лет', label: 'Опыта в подготовке документов' },
-  { value: '85%', label: 'Получают стипендии' },
+  { value: '82%', label: 'Получают стипендии' },
 ];
 
 export default function Stats() {

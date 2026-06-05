@@ -15,7 +15,7 @@ const services = [
     icon: GraduationCap,
     title: 'Подготовка к поступлению',
     subtitle: 'University Admission Prep',
-    items: ['Personal Statement (мотивационное эссе)', 'LOR (рекомендательные письма)', 'Scholarship Applications (подача на стипендии)', 'Interview Prep (подготовка к интервью)', 'Article Publication (публикация статьи)'],
+    items: ['Personal Statement (мотивационное эссе)', 'LOR (рекомендательные письма)', 'Scholarship Forms (подачи на грант)', 'Interview Prep (подготовка к интервью)', 'Article Publication (публикация статьи)'],
     img: SERVICE_IMGS.admission,
   },
   {
@@ -31,7 +31,7 @@ const services = [
     icon: TreePine,
     title: 'Образовательные лагеря',
     subtitle: 'Educational Camps',
-    items: ['Летняя программы в Шанхае', 'Академические интенсивы', 'Международные поездки'],
+    items: ['Летняя программа в Шанхае', 'Академические интенсивы', 'Международные поездки', 'Культурное погружение', 'Каникулы с пользой'],
     img: SERVICE_IMGS.camps,
   },
 ];
