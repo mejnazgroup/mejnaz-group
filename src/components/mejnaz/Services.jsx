@@ -15,7 +15,7 @@ const services = [
     icon: GraduationCap,
     title: 'Подготовка к поступлению',
     subtitle: 'University Admission Prep',
-    items: ['Ivy League & Oxbridge менторинг', 'Личные эссе (Personal Statement)', 'Рекомендательные письма', 'Заявления на стипендии', 'Коучинг и стратегия'],
+    items: ['Personal Statement (мотивационное эссе)', 'LOR (рекомендательные письма)', 'Scholarship Applications (подача на стипендии)', 'Interview Prep (подготовка к интервью)', 'Article Publication (публикация статьи)'],
     img: SERVICE_IMGS.admission,
   },
   {
@@ -23,7 +23,7 @@ const services = [
     icon: BookOpen,
     title: 'Подготовка к экзаменам',
     subtitle: 'Standardized Exams Prep',
-    items: ['IELTS / TOEFL / DET', 'SAT / ACT', 'GMAT / GRE', 'HSK (китайский язык)', 'Индивидуальные программы'],
+    items: ['IELTS', 'SAT', 'HSK'],
     img: SERVICE_IMGS.exams,
   },
   {
@@ -31,7 +31,7 @@ const services = [
     icon: TreePine,
     title: 'Образовательные лагеря',
     subtitle: 'Educational Camps',
-    items: ['Летние программы в США', 'Культурные туры в Азию', 'Академические интенсивы', 'Развитие лидерства', 'Международные обмены'],
+    items: ['Летняя программы в Шанхае', 'Академические интенсивы', 'Международные поездки'],
     img: SERVICE_IMGS.camps,
   },
 ];
@@ -112,9 +112,7 @@ export default function Services() {
           <h2 className="font-playfair text-[#141414] font-bold mb-4" style={{ fontSize: 'clamp(2rem, 4vw, 3rem)' }}>
             Услуги
           </h2>
-          <p className="text-[#3D3D3D] text-[18px] max-w-xl leading-relaxed">
-            Три ключевых направления — единый путь к вашей мечте.
-          </p>
+
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
