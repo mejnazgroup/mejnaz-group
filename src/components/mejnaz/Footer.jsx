@@ -104,14 +104,6 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-6">
-            <button className="text-[#FAF7F2]/45 hover:text-[#C18C5D] text-[15px] transition-colors focus-bronze rounded-sm">
-              Политика конфиденциальности
-            </button>
-            <button className="text-[#FAF7F2]/45 hover:text-[#C18C5D] text-[15px] transition-colors focus-bronze rounded-sm">
-              Условия использования
-            </button>
-          </div>
           <div className="text-[#FAF7F2]/35 text-[15px]">
             © {year} MEJNAZ Group. Все права защищены.
           </div>
