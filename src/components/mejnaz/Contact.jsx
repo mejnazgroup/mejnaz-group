@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Send, MessageCircle, CheckCircle } from 'lucide-react';
+import { base44 } from '@/api/base44Client';
 
 const WHATSAPP_NUMBER = '+77472389157';
 const BG_IMG = 'https://media.base44.com/images/public/6a218b5dcff8773efd420c23/450735813_generated_image.png';
@@ -20,7 +21,7 @@ export default function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-    await new Promise(r => setTimeout(r, 1000));
+    await base44.functions.invoke('saveToNotion', form);
     setLoading(false);
     setSubmitted(true);
   };
