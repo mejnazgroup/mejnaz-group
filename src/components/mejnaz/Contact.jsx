@@ -53,23 +53,14 @@ export default function Contact() {
             </div>
 
             <h2 className="font-playfair text-[#FAF7F2] font-bold leading-tight mb-6" style={{ fontSize: 'clamp(1.8rem, 3.5vw, 2.8rem)' }}>
-              Сделайте первый шаг к вашей мечте
+              Сделайте шаг к ВУЗу мечты.
             </h2>
 
             <p className="text-[#FAF7F2]/75 text-[17px] leading-relaxed mb-8">
               Запишитесь на бесплатную консультацию и узнайте, как мы поможем вам поступить в лучшие университеты мира.
             </p>
 
-            {/* Founder signature */}
-            <div className="flex items-center gap-4 pt-6 border-t border-[#FAF7F2]/15">
-              <div className="w-12 h-12 rounded-full bg-[#C18C5D]/20 border-2 border-[#C18C5D]/40 flex items-center justify-center">
-                <span className="text-[#C18C5D] font-playfair font-bold text-lg">M</span>
-              </div>
-              <div>
-                <div className="text-[#FAF7F2] font-semibold text-[15px]">Основатель MEJNAZ Group</div>
-                <div className="text-[#C18C5D] text-[13px]">Личный ответ в течение 24 часов</div>
-              </div>
-            </div>
+
 
             {/* WhatsApp */}
             <a
@@ -112,7 +103,7 @@ export default function Contact() {
               <h3 className="font-playfair text-[#141414] text-[26px] font-bold mb-2">
                 Записаться на консультацию
               </h3>
-              <p className="text-[#3D3D3D] text-[16px] mb-8">Заполните форму — мы ответим быстро.</p>
+              <p className="text-[#3D3D3D] text-[16px] mb-8">Заполните форму.</p>
 
               <form onSubmit={handleSubmit} className="flex flex-col gap-6">
                 <div className="grid md:grid-cols-2 gap-6">

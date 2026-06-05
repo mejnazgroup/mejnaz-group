@@ -22,10 +22,10 @@ export default function Destinations() {
             <span className="text-[#C18C5D] text-[13px] font-semibold tracking-[0.15em] uppercase">Направления</span>
           </div>
           <h2 className="font-playfair text-[#141414] font-bold" style={{ fontSize: 'clamp(2rem, 4vw, 3rem)' }}>
-            Топ направлений для учёбы
+            Топ 9 стран для обучения
           </h2>
           <p className="text-[#3D3D3D] text-[18px] mt-4 max-w-xl leading-relaxed">
-            Мы помогаем поступить в лучшие вузы этих стран с полным сопровождением.
+            Среди наших студентов популярны данные страны.
           </p>
         </div>
 
